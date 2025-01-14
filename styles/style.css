@@ -4721,7 +4721,7 @@ address {
   fill: var(--black);
 }
 
-.slider-navigation__bullets .bullet.active {
+.impressions__bullets .bullet.active {
   background: #000;
 }
 
