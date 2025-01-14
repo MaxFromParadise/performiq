@@ -38,6 +38,11 @@ document.addEventListener('DOMContentLoaded', () => {
 			bulletsClass: '.formats__bullets',
 			navigation: { nextEl: '.formats__arrow_next', prevEl: '.formats__arrow_prev' },
 		},
+		{
+			selector: '.impressions__slider',
+			bulletsClass: '.impressions__bullets',
+			navigation: { nextEl: '.impressions__arrow_next', prevEl: '.impressions__arrow_prev' },
+		},
 	];
 
 	swiperConfig.forEach(({ selector, bulletsClass, navigation }) => {
