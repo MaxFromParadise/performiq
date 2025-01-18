@@ -43,6 +43,11 @@ document.addEventListener('DOMContentLoaded', () => {
 			bulletsClass: '.impressions__bullets',
 			navigation: { nextEl: '.impressions__arrow_next', prevEl: '.impressions__arrow_prev' },
 		},
+		{
+			selector: '.data-visualization__slider',
+			bulletsClass: '.data-visualization__bullets',
+			navigation: { nextEl: '.data-visualization__arrow_next', prevEl: '.data-visualization__arrow_prev' },
+		},
 	];
 
 	swiperConfig.forEach(({ selector, bulletsClass, navigation }) => {
